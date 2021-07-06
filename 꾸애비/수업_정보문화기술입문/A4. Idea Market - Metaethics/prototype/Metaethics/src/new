@@ -1,0 +1,21 @@
+let uiio = 1;
+let taxRate = 0.2;
+let corruptRate = 0.1;
+
+let score = 0;
+
+// 문제: death가 splice 시키면 class 내 index 변수랑 people 어레이 내 인덱스랑 꼬임. class 내 index는 고유번호 개념으로 가야. 그렇게 되면 people[p.index]는 못 씀.
+
+
+// classes!
+
+function draw() {
+
+    for(p of people) { // update status
+      p.update();
+      p.normalize();
+    }
+
+  }
+
+}

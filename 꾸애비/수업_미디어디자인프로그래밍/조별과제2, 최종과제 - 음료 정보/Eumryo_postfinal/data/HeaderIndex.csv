@@ -1,0 +1,5 @@
+0,1,2,3,4,5,
+Name,Price,Calories(kcal),Sugars(g),Sodium(mg),Volume(ml),
+음료명,가격,열량(kcal),당(g),나트륨(mg),용량(ml),
+음료명,가격,열량,당,나트륨,용량,
+,won,kcal,g,mg,ml,
