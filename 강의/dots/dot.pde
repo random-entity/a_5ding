@@ -14,16 +14,13 @@ class dot {
 
     float distance = sqrt(dirX * dirX + dirY * dirY);
 
-    dirX *= vel / distance;
-    dirY *= vel / distance;
-
-//    if (distance > 150) {
-//      dirX *= -0.05;
-//      dirY *= -0.05;
-//    }
-
-    x += dirX;
-    y += dirY;
+    if (distance < 150) {
+      dirX *= vel / distance;
+      dirY *= vel / distance;
+      
+      x += dirX;
+      y += dirY;
+    }
   }
 
   void display() {
