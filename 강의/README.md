@@ -20,3 +20,8 @@
     - return type 있는 함수
     - constain 함수
     - switch 문
+## gridPhysics
+- dots 프로젝트의 확장
+  - 중력 + 탄성력 + 저항력
+  - 그라디언트 색깔
+  - 마우스 좌우클릭, 휠 스크롤로 중력상수, 거리 지수 변경 가능
